@@ -3,9 +3,14 @@ const clock = document.querySelector('.clock');
 
 const tick =  () => {
 
-    const now = new Date();
-   
 
+
+
+
+
+
+
+    const now = new Date();
     const hr = now.getHours();
     const min = now.getMinutes();
     const sec = now.getSeconds();
